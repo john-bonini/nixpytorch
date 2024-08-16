@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "jarvis-leaderboard-pyenv-default"
+version = "0.1.0"
+description = "A python environment for torch"
+authors = ["John Bonini <bonini.physics@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+torch = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
