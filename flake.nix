@@ -20,8 +20,8 @@
       system: let
         pkgs = import nixpkgs {
           inherit system;
-          config.cudaSupport = true;
-          config.allowUnfree = true;
+          #config.cudaSupport = true;
+          #config.allowUnfree = true;
           overlays = [
             poetry2nix.overlays.default
           ];
